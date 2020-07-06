@@ -16,7 +16,7 @@
                 <router-link to="/projects" class="nav-link">Projects</router-link>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <router-link to="/contact" class="nav-link">Contact</router-link>
             </li>
             </ul>
         </div>

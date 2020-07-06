@@ -4,6 +4,7 @@ import App from './App.vue';
 import HomeScreen from './components/HomeScreen'
 import Projects from './components/Projects'
 import History from './components/History'
+import Contact from './components/Contact'
 
 Vue.use(VueRouter);
 
@@ -13,6 +14,7 @@ export const router = new VueRouter({
     {path: '/', component: HomeScreen},
     {path: '/projects', component: Projects},
     {path: '/history', component: History},
+    {path: '/contact', component: Contact},
   ]
 });
 
