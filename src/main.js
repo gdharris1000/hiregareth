@@ -5,6 +5,8 @@ import HomeScreen from './components/HomeScreen'
 import Projects from './components/Projects'
 import History from './components/History'
 import Contact from './components/Contact'
+import 'bootstrap'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 Vue.use(VueRouter);
 
