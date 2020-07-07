@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row job-row">
-            <div class="col-md-6">
+            <div class="col-md-6 d-flex align-items-center">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
@@ -46,7 +46,7 @@
             </div>
         </div>
         <div class="row job-row">
-            <div class="col-md-6">
+            <div class="col-md-6 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="card">
+                <div class="card d-flex align-items-stretch">
                     <div class="card-header">
                         <div class="row">
                             <div class="col-md-6"><font-awesome-icon icon="graduation-cap"></font-awesome-icon> ARC Academy<br>(Tokyo)</div>
@@ -89,7 +89,7 @@
             </div>
         </div>
         <div class="row job-row">
-            <div class="col-md-6">
+            <div class="col-md-6 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
@@ -110,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
@@ -141,7 +141,7 @@
             </div>
         </div>
         <div class="row job-row">
-            <div class="col-md-6">
+            <div class="col-md-6 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
@@ -165,7 +165,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d-flex align-items-stretch">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
@@ -197,4 +197,7 @@ export default {
     .job-row {
         margin-top: 20px;
     }
+    
+
+ 
 </style>
