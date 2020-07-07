@@ -1,5 +1,7 @@
 <template>
-    <div>Hello</div>
+    <div>
+        <p><font-awesome-icon icon='user-secret' /></p>
+    </div>
 </template>
 
 <script>
