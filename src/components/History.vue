@@ -1,11 +1,11 @@
 <template>
     <div class="container">
-        <div class="row">
+        <div class="row job-row">
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
-                            <div class="col-md-6">Makers Academy<br>(London)</div>
+                            <div class="col-md-6"><font-awesome-icon icon="graduation-cap"></font-awesome-icon> Makers Academy<br>(London)</div>
                             <div class="col-md-6 text-right">Feb 2020 – May 2020</div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
-                            <div class="col-md-6">Page Lizard<br>(Walton-on-Thames)</div>
+                            <div class="col-md-6"><font-awesome-icon icon="user-tie"></font-awesome-icon> Page Lizard<br>(Walton-on-Thames)</div>
                             <div class="col-md-6 text-right">Jan 2018 – Sep 2018</div>
                         </div>
                     </div>
@@ -45,12 +45,12 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row job-row">
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
-                            <div class="col-md-6">SDNI Cosmo<br>(Tokyo)</div>
+                            <div class="col-md-6"><font-awesome-icon icon="user-tie"></font-awesome-icon> SDNI Cosmo<br>(Tokyo)</div>
                             <div class="col-md-6 text-right">Feb 2017 – Apr 2017</div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
-                            <div class="col-md-6">ARC Academy<br>(Tokyo)</div>
+                            <div class="col-md-6"><font-awesome-icon icon="graduation-cap"></font-awesome-icon> ARC Academy<br>(Tokyo)</div>
                             <div class="col-md-6 text-right">Jul 2015 – Apr 2017</div>
                         </div>
                     </div>
@@ -88,12 +88,12 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row job-row">
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
-                            <div class="col-md-6">Hays (contracted to NHS)<br>(Cambridge)</div>
+                            <div class="col-md-6"><font-awesome-icon icon="user-tie"></font-awesome-icon> Hays (contracted to NHS)<br>(Cambridge)</div>
                             <div class="col-md-6 text-right">Feb 2015 – Jun 2015</div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
-                            <div class="col-md-6">BP plc.<br>(Hemel Hempstead)</div>
+                            <div class="col-md-6"><font-awesome-icon icon="user-tie"></font-awesome-icon> BP plc.<br>(Hemel Hempstead)</div>
                             <div class="col-md-6 text-right">Jan 2014 – Sep 2014</div>
                         </div>
                     </div>
@@ -140,12 +140,12 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row job-row">
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
-                            <div class="col-md-6">BP plc.<br>(Hemel Hempstead)</div>
+                            <div class="col-md-6"><font-awesome-icon icon="user-tie"></font-awesome-icon> BP plc.<br>(Hemel Hempstead)</div>
                             <div class="col-md-6 text-right">Jul 2007 – Jan 2014</div>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="row">
-                            <div class="col-md-6">Select Appointments (contracted to BP plc.)<br>(Sunbury-on-Thames)</div>
+                            <div class="col-md-6"><font-awesome-icon icon="user-tie"></font-awesome-icon> Select Appointments (contracted to BP plc.)<br>(Sunbury-on-Thames)</div>
                             <div class="col-md-6 text-right">Feb 2004 – Jul 2007</div>
                         </div>
                     </div>
@@ -194,7 +194,7 @@ export default {
 </script>
 
 <style scoped>
-    .row {
+    .job-row {
         margin-top: 20px;
     }
 </style>

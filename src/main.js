@@ -8,10 +8,11 @@ import Contact from './components/Contact'
 import 'bootstrap'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { faGraduationCap, faUserTie } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-library.add(faUserSecret)
+library.add(faGraduationCap);
+library.add(faUserTie);
 
 Vue.use(VueRouter);
 Vue.component('font-awesome-icon', FontAwesomeIcon)

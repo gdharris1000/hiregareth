@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p><font-awesome-icon icon='user-secret' /></p>
+        <p>Home Screen</p>
     </div>
 </template>
 
