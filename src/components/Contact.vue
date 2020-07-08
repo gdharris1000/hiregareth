@@ -4,23 +4,27 @@
              <div class="form-group row">
                 <label for="formName" class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm-10">
-                <input type="text" readonly class="form-control-plaintext" id="formName">
+                <input type="text" class="form-control-plaintext" id="formName">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="formEmail" class="col-sm-2 col-form-label">E-mail</label>
                 <div class="col-sm-10">
-                <input type="text" readonly class="form-control-plaintext" id="formEmail" placeholder="email@example.com">
+                <input type="text" class="form-control-plaintext" id="formEmail" placeholder="email@example.com">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="formEmail" class="col-sm-2 col-form-label">Message</label>
                 <div class="col-sm-10">
-                <textarea class="form-control" rows="5"></textarea>
+                    <textarea class="form-control" rows="5"></textarea>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
+            
         </form>
+        <div class="cursor-thing">
+
+        </div>
     </div>
 </template>
 
@@ -33,5 +37,14 @@ export default {
 <style scoped>
 form {
     margin-top: 20px;
+}
+.cursor-thing{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    
+}
+.cursor-thing:hover{
+    cursor: url("../../public/cursor.gif"), auto;
 }
 </style>
