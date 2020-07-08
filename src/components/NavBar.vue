@@ -30,5 +30,7 @@ export default {
 </script>
 
 <style scoped>
-
+    a{
+      cursor: url("../../public/cursor.gif"), auto;
+    }
 </style>

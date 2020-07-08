@@ -22,9 +22,7 @@
             <button type="submit" class="btn btn-primary">Submit</button>
             
         </form>
-        <div class="cursor-thing">
-
-        </div>
+       
     </div>
 </template>
 
@@ -38,13 +36,6 @@ export default {
 form {
     margin-top: 20px;
 }
-.cursor-thing{
-    width: 300px;
-    height: 200px;
-    background-color: green;
-    
-}
-.cursor-thing:hover{
-    cursor: url("../../public/cursor.gif"), auto;
-}
+
+
 </style>
