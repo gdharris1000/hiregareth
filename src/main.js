@@ -15,7 +15,9 @@ library.add(faGraduationCap);
 library.add(faUserTie);
 
 Vue.use(VueRouter);
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.component('font-awesome-icon', FontAwesomeIcon);
+
+import "../public/css/stylesheet.css";
 
 export const router = new VueRouter({
   mode: 'history',
