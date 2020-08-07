@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap');
+
 
 body{
-    background-color: #84A07C;
-    font-family: 'Anton', sans-serif;
+    background-color: #F5F1ED;
+    font-family: 'Recursive', sans-serif;
+    color: #001B2E;
 }

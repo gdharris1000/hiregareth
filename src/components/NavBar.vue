@@ -32,5 +32,13 @@ export default {
 <style scoped>
     a{
       cursor: url("../../public/cursor.gif"), auto;
+      color: #DAD2BC !important;
+    }
+
+    a:hover {
+        color: #A99985 !important;
+    }
+    .navbar {
+        background-color: #001B2E !important;
     }
 </style>
