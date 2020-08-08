@@ -1,10 +1,6 @@
 <template>
 <div class="container">
 
-
-<!-- <div class="card-columns"> -->
-
-
 <ul class="history-grid">
     <li>
         <div class="card">
@@ -184,7 +180,6 @@
     </li>
 </ul>
 </div>
-<!-- </div> -->
 
 </template>
 
@@ -210,6 +205,10 @@ ul.history-grid{
 .card-header {
     background-color: #70798C;
     color: #F5F1ED;
+}
+
+.card {
+    margin-top: 25px;
 }
  
 </style>

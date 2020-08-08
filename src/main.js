@@ -9,10 +9,12 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGraduationCap, faUserTie } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 library.add(faGraduationCap);
 library.add(faUserTie);
+library.add(faGithub);
 
 Vue.use(VueRouter);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
